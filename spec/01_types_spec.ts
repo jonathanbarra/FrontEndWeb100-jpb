@@ -1,4 +1,7 @@
 import { formatName as utilsFormatName } from "./utils";
+import * as _ from 'lodash';
+
+
 
 describe('types', () => {
     describe('declaring variables', () => {
@@ -364,6 +367,39 @@ describe('types', () => {
 
             expect(utilsFormatName('Han', 'Solo', decorate)).toBe(`***Solo, Han***`);
 
+        });
+
+
+        it('another example - a function that returns a function', () => {
+
+            function makeAdder(a: number): (b: number) => number {
+                return (b) => a + b;
+            }
+
+            const add12 = makeAdder(12);
+            const add100 = makeAdder(100);
+
+            expect(add12(12)).toBe(24);
+            expect(add100(8)).toBe(108);
+
+
+
+        });
+
+        it('using the curry function from lodash', () => {
+
+            function add(a: number, b: number): number {
+                return a + b;
+            }
+
+            // expect(_.curry(add)(1)(2)).toBe(3);
+
+            const add20 = _.curry(add)(20);
+            const add100 = _.curry(add)(100);
+
+            expect(add20(5)).toBe(25);
+
+            expect(add100(50)).toBe(150);
         });
 
 
