@@ -1,3 +1,22 @@
 h1 {
     color:rgb(255, 0, 170);
 }
+
+.square {
+    width: 29.6%;
+    background: rgb(29, 243, 243);
+    padding-bottom: 29.6%;
+    float: left;
+    margin: 1.62%;
+    border-radius: 30.6%;
+    transition: background .5s;
+
+}
+
+.square.loser {
+    background: rgb(94, 129, 54);
+}
+
+.square.winner{
+    background: orchid;
+}
