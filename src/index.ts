@@ -21,7 +21,7 @@ squares.forEach((sq, idx) => {
 function handleClick() {
     const el = this as HTMLDivElement;
     guessCount++;
-    count.innerHTML = `<small> you have made <b>${guessCount}</b>guesses</small>`;
+    count.innerHTML = `<small> you have made <b>${guessCount}</b> guesses</small>`;
     if (el.dataset.secret) {
         el.classList.add('winner');
         squares.forEach(sq => sq.removeEventListener('click', handleClick));
