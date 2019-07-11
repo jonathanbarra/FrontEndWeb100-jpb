@@ -1,0 +1,23 @@
+h1 {
+    color: black;
+}
+
+.space-between-tip-buttons-and-list{
+   height: 30px;
+}
+
+.content-column-not-bootstrap{
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.selected-tip-percentage{
+    color: red;
+}
+
+.bill-amount-input.red{
+padding: red;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvc3R5bGVzLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0E7O0FBRUE7QUFDQTtBQUNBOztBQUVBO0FBQ0E7QUFDQTs7QUFFQTs7QUFFQTtBQUNBO0FBQ0E7O0FBRUE7QUFDQTtBQUNBLEMiLCJmaWxlIjoic3R5bGUuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaDEge1xyXG4gICAgY29sb3I6IGJsYWNrO1xyXG59XHJcblxyXG4uc3BhY2UtYmV0d2Vlbi10aXAtYnV0dG9ucy1hbmQtbGlzdHtcclxuICAgaGVpZ2h0OiAzMHB4O1xyXG59XHJcblxyXG4uY29udGVudC1jb2x1bW4tbm90LWJvb3RzdHJhcHtcclxuICAgIHBhZGRpbmctbGVmdDogNSU7XHJcbiAgICBwYWRkaW5nLXJpZ2h0OiA1JTtcclxuXHJcbn1cclxuXHJcbi5zZWxlY3RlZC10aXAtcGVyY2VudGFnZXtcclxuICAgIGNvbG9yOiByZWQ7XHJcbn1cclxuXHJcbi5iaWxsLWFtb3VudC1pbnB1dC5yZWR7XHJcbnBhZGRpbmc6IHJlZDtcclxufSJdLCJzb3VyY2VSb290IjoiIn0=*/
